@@ -16,7 +16,7 @@ h1 {
 .maintext {
   margin-top: 300px;
 }
-.custom-button{
+.custom-button {
   width: 300px;
   font-size: 30px;
   font-family: 'VT323', monospace;
@@ -25,7 +25,7 @@ h1 {
   color: #808080;
   transition: transform 1s, background-color 1s, border-color 1s;
 }
-.custom-button:hover{
+.custom-button:hover {
   background-color: #808080;
   border-color: #808080;
   transform: scale(1.2);
