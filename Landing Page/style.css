@@ -1,0 +1,46 @@
+body {
+  background: url(bgi.jpg) no-repeat center fixed;
+  background-size: cover;
+  font-family: 'Anton', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+}
+.maintext {
+  margin-top: 300px;
+}
+.custom-button{
+  width: 300px;
+  font-size: 30px;
+  font-family: 'VT323', monospace;
+  margin-top: 30px;
+  border-color: #808080;
+  color: #808080;
+  transition: transform 1s, background-color 1s, border-color 1s;
+}
+.custom-button:hover{
+  background-color: #808080;
+  border-color: #808080;
+  transform: scale(1.2);
+}
+.custom-button:focus, .custom-button.focus {
+  box-shadow: 0 0 0 0.2rem rgba(128, 128, 128, 0.5);
+}
+.custom-button:not([disabled]):not(.disabled):active, .custom-button:not([disabled]):not(.disabled).active,
+.show > .custom-button.dropdown-toggle {
+  color: #212529;
+  background-color: #808080;
+  border-color: #808080;
+  box-shadow: 0 0 0 0.2rem rgba(128, 128, 128, 0.5);
+}
+hr {
+  color: #6D6C6B;
+  border-width: 4px;
+}
